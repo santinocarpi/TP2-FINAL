@@ -1,0 +1,192 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+ 
+ 
+}
+ 
+header {
+  background-color: #588152;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ 
+footer {
+  background-color: #d7d7cd;
+  color: black;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+  position: relative;
+  left: 0;
+  bottom: 0;
+}
+ 
+ 
+ 
+ 
+nav {
+  background-color: black;
+  padding: 10px;
+}
+ 
+nav a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 10px;
+  display: inline-block;
+  margin-left: 10px;
+}
+ 
+img {
+  width: 90px;
+  height: auto;
+  margin-left: 10px;
+}
+ 
+.title {
+  font-size: 60px;
+  color: #344e41;
+  font-weight: bold;
+}
+ 
+.subTitle {
+  font-size: 35px;
+  font-weight: bold;
+
+}
+ 
+.item-navbar:hover {
+  color: #c5c8cd;
+}
+ 
+.navbar-custom {
+  background-color: inherit;
+}
+ 
+.navbar-custom .navbar-toggler {
+  color: #fff;
+  border-color: #fff;
+}
+ 
+.navbar-custom .navbar-nav .nav-link {
+  color: #fff;
+}
+ 
+.titleSinColor {
+  font-size: 40px;
+}
+ 
+.textoCuerpo {
+  font-size: 20px;
+
+}
+ 
+#resultado {
+  margin-top: 10px;
+  min-height: 1em;
+ 
+}
+ 
+button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+ 
+#felicitaciones {
+  color: white;
+  font-weight: bold;
+}
+ 
+#juego {
+  color: white;
+  background-color: #3a5a40;
+  text-align: center;
+  margin-bottom: 40px;
+
+  padding: 20px;
+  font-weight: bold;
+}
+ 
+#pantallaJuego {
+  display: none;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+ 
+#palabraIngresada {
+  display: block;
+  margin: 0 auto;
+}
+ 
+#enviarPalabra {
+  display: block;
+  margin: 10px auto;
+
+
+}
+ 
+#resultado {
+  font-weight: bold;
+  margin: 20px;
+  height: 50px;
+  text-align:center;
+  align-items: center;
+
+
+  font-size: x-large;
+}
+ 
+ 
+#palabraDesordenada {
+  font-size: x-large;
+  font-weight: bold;
+}
+ 
+#felicitaciones {
+
+  color: black;
+  font-weight: bolder;
+ 
+}
+ 
+@media (max-width: 768px) {
+
+  #palabraIngresada {
+    margin: 0 auto;
+  }
+ 
+  #enviarPalabra {
+    margin: 10px auto;
+  }
+ 
+  footer {
+    width: 100%;
+    position: relative;
+
+
+  }
+}
+ 
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0; 
+
+  
+}
+ 
+.img-container img {
+  max-width: 100%;
+  height: auto;
+}
